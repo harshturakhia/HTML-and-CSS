@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String in JS</title>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        
+        <h1>This is heading</h1>
+
+        <div id="content"></div>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima officiis, asperiores consequatur ut quod
+            sint maxime fuga minus possimus accusantium repudiandae eos enim inventore, culpa aliquid vitae. Aspernatur,
+            eligendi quas.
+            Error architecto eum quasi velit sunt ab deleniti amet iusto quo quos quia doloribus quae explicabo incidunt
+            sint esse distinctio rem, nulla fugiat, sequi eos. Nam laboriosam nulla expedita aut.</p>
+    </div>
+
+    <script>
+
+        var name = "Harsh";
+        var channel = "Turakhia";
+
+        var temp = '${name} is the name and ${channel} is the surname';
+        console.log(temp);
+
+        var length = name.length;
+        console.log("Length of name is : " + length);
+
+        console.log("Hello World! \nHello Harsh");
+
+        /*
+            \t \b \n all this works here... 
+        */
+
+        var y = new String("Harsh");
+        console.log(y);
+
+        document.getElementById('content').innerHTML = "<h2> This is h2 heading! </h2>"
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+body
+        {
+            background-color: lightblue;
+        }
+.container
+        {
+            color: black;
+            font-size: 20px;
+        }
+li
+        {
+            list-style: none;
+            padding: 20px 20px;
+        }
+header
+        {
+            display: flex;
+            flex-direction: column;
+        }
+.container
+        {
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            color: black;
+        }
+.container li a
+        {
+            color: black;
+            margin: 0px;
+            padding: 0px;
+            margin-left: 100px;
+        }
+.abc
+    {
+        box-sizing: border-box;
+        box-shadow: mediumblue;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin: 30px;
+        color: black;
+        border: 5px solid darkslategray;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
+    }
+.hello
+{
+    text-align: center;
+    font-style:inherit;
+}
+.img1
+    {
+        height: 12%;
+        width: 15%;
+        border-image: round;
+        border: 3px solid gray;    
+        border-radius: 5px;
+        float: right;
+    }
+    .img2
+    {
+        height: 12%;
+        width: 15%;
+        border-image: round;
+        border: 3px solid gray;    
+        border-radius: 5px;
+        float: right;
+    }
+h3
+{
+    color: blacks;
+    padding: 60px 60px 60px 60px;
+    margin: 20px;
+    display: flex;
+    margin-right: 10px;
+    border: 5px solid darkcyan;
+    border-radius: 10px;
+}
+h3
+{
+    color: blacks;
+    padding: 60px 60px 60px 60px;
+    margin: 20px;
+    display: flex;
+    margin-right: 10px;
+    border: 5px solid darkcyan;
+    border-radius: 10px;
+} 
+.qoute
+{
+    text-align: center;
+    font-style: italic;
+    font-weight: 10em;
+    font-weight: bolder;
+    padding: 20px 20px 20px 20px ;
+    padding-bottom: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.cu
+{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea
+{
+    text-align: center;
+    width: 30%;
+    font-size: 20px ;
+    padding: 12px;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+.submit
+    {
+        cursor: pointer;
+        background-color: lightskyblue;
+        text-align: center;
+        width: 30%;
+        padding: 12px;
+        /* border: 10px solid #ccc;
+        border-radius: 5px; */
+        margin: 5px;
+
+    }

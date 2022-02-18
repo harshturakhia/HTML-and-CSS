@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Attribute and Pseudo Selector</title>
+    </head>
+    <style>
+        .container
+        {
+            display: block;
+            width: 30px;
+            margin: auto;
+        }
+        input
+        {
+            display: block;
+            margin: 10px;
+
+        }
+        a[target]
+        {
+            font-size:20px;
+            color:darkgreen;
+        }
+        input[type='text']
+        {
+            padding: 30px;
+            border: 5px solid black;
+        }
+        li:nth-child(2n)
+        {
+            color: darkred;
+            font-family: cursive;
+        }
+        .abc
+        {
+            color: yellow;
+            display: block;         
+            font-size: 30px;
+        }
+        
+    </style>
+    <body>
+        <div class="container">
+
+            <h3><a href="https://google.com" target="blank" class="abc">Go to google</a></h3>
+            <h3><a href="https://facebook.com" target="_self" class="abc">Go to facebook</a></h3>
+            <h3><a href="https://gaana.com" target="blank" class="abc">Go to gaana</a></h3>
+
+            <form action="" class="form-control">
+                <input type="text" placeholder="Enter your name">
+                <input type="password" placeholder="Enter your passsword">
+                <input type="submit" placeholder="Submit">
+            </form>
+
+        <ul>
+            <li class="class" id="item1">Item1</li>
+            <li class="class" id="item2">Item2</li>
+            <li class="class" id="item3">Item3</li>
+            <li class="class" id="item4">Item4</li>
+            <li class="class" id="item5">Item5</li>
+            <li class="class" id="item6">Item6</li>
+            <li class="class" id="item7">Item7</li>
+            <li class="class" id="item8">Item8</li>
+
+        </ul>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Functions in JS</title>
+
+</head>
+<body>
+    
+    <script>
+
+        //String index starts from 0...
+
+        var str = "This is a string";
+        console.log(str);
+
+        //First occurence of substring
+        var position = str.indexOf('a');
+        console.log(position);
+
+        //Last occurence of substring
+        var position = str.lastIndexOf('is');
+        console.log(position);
+
+        //Substring from a string       // can take negative
+        var slice = str.slice(1,7);
+        console.log(slice);
+
+        //Substring from a string       // cannot take negative
+        var substring= str.substring(1,7);
+        console.log(substring);
+
+        //Substring from a string
+        var substr = str.substr(1,4);
+        console.log(substr);
+
+        var replace = str.replace("string" , "Harsh");
+        console.log(str);
+        console.log(replace);
+
+        //To convert it into uppercase & lowercase...
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+        
+        //Use to add more strings...
+        var added = str.concat(" Harsh Turakhia ");
+        console.log(added);
+
+        // We can also add strings like this...
+        console.log(str + " Harsh");
+    
+        //Remove whitespace from beginning and end...
+        var str1 = "    This     contains           whitespace  ";
+        console.log(str1);
+        console.log(str1.trim());
+
+        var char = str.charAt(2);
+        console.log(char);
+
+        var char = str.charCodeAt(2);
+        console.log(char);
+
+    </script>
+
+</body>
+</html>

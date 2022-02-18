@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>More on Selectors</title>
+    </head>
+    <style>
+        h1
+        {
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            background-color: burlywood;
+        }
+
+        div p
+        {
+            background-color: green;
+            text-align: center;
+            font-weight: bold;
+            color: indigo;
+        }
+
+        /* If p is contained by any li which is contained by div*/
+        /* div li p
+        {
+            background-color: green;
+            text-align: center;
+            font-weight: bold;
+            color: indigo;
+        } */
+
+        /* If p is right inside div */
+        /* div > p
+        {
+            background-color: green;
+            text-align: center;
+            font-weight: bold;
+            color: indigo;
+        } */
+        
+        /* If p is right after div or p is next sibling of div*/
+        /* div + p
+        {
+            color: white;
+            background-color: black;
+            text-align: center;
+        } */
+        
+    </style>
+    <body>
+        <h1>This is more on Selectors</h1>
+
+        <div class="container">
+            <div class="row">
+
+                <ul>
+                    <li>
+                        <p>Harsh Turakhia</p>
+                    </li>
+                </ul>
+                
+                <p>Ths is a paragrapgh</p>
+            </div>
+            <p>This is another paragrapgh</p>
+        </div>
+        <p>This is ouermost paragrapgh</p>
+    </body>
+</html>
